@@ -100,14 +100,13 @@ body {
 	margin:0;
 	font-family: Quicksand,sans-serif;
 }
-/* ==========================================================================Links========================================================================== */
 a:focus {
 	outline:thin dotted;
 }
 a:active,a:hover {
 	outline: 0;
 }
-/* ==========================================================================Typography========================================================================== */
+
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
 h1 {
 	font-size:2em;
@@ -132,7 +131,7 @@ h5 {
 }
 h6 {
 	font-size: 12px;
-	margin:2.33em 0;
+	margin:1.3em 0;
 }
 abbr[title] {
 	border-bottom:1px dotted;
@@ -205,7 +204,7 @@ nav ul,nav ol {
 	list-style:none;
 	list-style-image: none;
 }
-/* ==========================================================================Embedded content========================================================================== */
+
 img {
 	border:0;
 	-ms-interpolation-mode:bicubic;
@@ -213,11 +212,11 @@ img {
 svg:not(:root) {
 	overflow: hidden;
 }
-/* ==========================================================================Figures========================================================================== */
+
 figure {
 	margin: 0;
 }
-/* ==========================================================================Forms========================================================================== */
+
 form {
 	margin:0;
 }
@@ -272,12 +271,11 @@ textarea {
 	overflow:auto;
 	vertical-align: top;
 }
-/* ==========================================================================Tables========================================================================== */
 table {
 	border-collapse:collapse;
 	border-spacing: 0;
 }
-/* ==========================================================================Section Styles========================================================================== */
+
 .section-padding {
 	padding:50px 0 70px
 }
@@ -319,7 +317,7 @@ table {
 .inner {
 	padding-top: 138px;
 }
-/* ==========================================================================Navigation========================================================================== */
+
 .menu-wrap a {
 	color:#555d7c;
 	outline:none!important;
@@ -340,7 +338,7 @@ table {
 	background:#b4bad2;
 	padding-bottom: 12em;
 }
-/* Common styles for menu button and menu-wrap */
+
 .menu-button,.menu-wrap {
 	position:fixed;
 	width:2.5em;
@@ -349,7 +347,7 @@ table {
 	-webkit-transform:translate3d(1.5em,1.5em,0);
 	transform: translate3d(1.5em,1.5em,0);
 }
-/* Menu Button */
+
 .menu-button {
 	-webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.06);
 	-moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.06);
@@ -374,7 +372,7 @@ table {
 .menu-button:hover {
 	opacity: 0.6;
 }
-/* Menu */
+
 .menu-wrap {
 	z-index:999;
 	background: rgba(255, 255, 255, 1);
@@ -409,7 +407,7 @@ table {
 	font-weight:700;
 	padding-top: 0.5em;
 }
-/* Shown menu */
+
 .show-menu .content-wrap {
 	-webkit-transition-delay:0s;
 	transition-delay:0s;
@@ -450,7 +448,7 @@ table {
 	-webkit-transition-delay:0.5s;
 	transition-delay: 0.5s;
 }
-/* ==========================================================================Hero========================================================================== */
+
 .hero {
 	background: url('../img/bg1.png') right bottom no-repeat;
 	background-size: contain;
@@ -486,7 +484,7 @@ table {
 	color:var(--main-color);
 	font-size: 15px;
 }
-/* Boucing Arrow Animation */
+
 @keyframes arrowbounce {
 	from {
 		-webkit-transform:translateY(0);
@@ -554,7 +552,7 @@ table {
 	/* Safari and Chrome */-o-animation: arrowbounce 1s alternate infinite;
 	/* Opera */
 }
-/* ==========================================================================Intro========================================================================== */
+
 .intro p {
 	margin:50px 0 0;
 }
@@ -570,7 +568,7 @@ h1.arrow {
 h1.arrow span {
     color: var(--main-color);
 }
-/* ==========================================================================About========================================================================== */
+
 .about-image {
 	height:400px;
 	-webkit-background-size:cover;
@@ -614,7 +612,7 @@ h1.arrow span {
 .color-bg h1.arrow {
     color: #FFF;
 }
-/* ==========================================================================Services========================================================================== */
+
 .services {
 	margin-top:80px;
 	margin-bottom:40px;
@@ -670,7 +668,6 @@ i.respons {
 	border:1px solid #CCCCCC;
 
 }
-/* ==========================================================================iPhone Section========================================================================== */
 .iphone {
 	width:50%;
 	background:#f3f5f8;
@@ -691,7 +688,7 @@ i.respons {
 .responsive-services {
 	position: relative;
 }
-/* ==========================================================================Portfolio========================================================================== */
+
 .swag {
 	padding:45px 0 5px;
 }
@@ -825,7 +822,6 @@ img.grayscale:hover {
 	margin-right:auto;
 	top: 50px;
 }
-/* ==========================================================================Subscribe========================================================================== */
 .subscribe {
 	padding-top:75px;
 }
@@ -901,7 +897,7 @@ img.grayscale:hover {
 	color:#424242;
 	border: solid 1px #424242;
 }
-/* ==========================================================================Team========================================================================== */
+
 .team img {
 	margin-bottom:20px;
 }
@@ -1006,7 +1002,7 @@ ul.social-buttons li:last-child {
 button,button:focus,button:hover,button:active {
 	outline: none!important;
 }
-/* ==========================================================================Footer========================================================================== */
+
 footer a {
 	color:#a1a9b0;
 }
@@ -1017,7 +1013,7 @@ footer {
 footer p {
 	color: #808080;
 }
-/* ==========================================================================FlexSlider Custom CSS========================================================================== */
+
 #servicesSlider {
 	margin-top:70px;
 }
@@ -1072,7 +1068,7 @@ ul.slides li {
     background: var(--secondary-color);
     border-color: var(--secondary-color);
 }
-/* ==========================================================================Waypoints========================================================================== */
+
 .wp1,.wp2,.wp3,.wp4,.wp5,.wp6 {
 	visibility:hidden;
 }
@@ -1092,8 +1088,7 @@ ul.slides li {
 	background-position:200px 10px;
 	height: 100%;
 }
-/* ==========================================================================Responsive========================================================================== */
-/* 320px (iPhone) */
+
 @media screen and (max-width:414px) {
 	.scrollto {
 		padding: 95px 0px 0px 0px;
@@ -1125,7 +1120,7 @@ ul.slides li {
 		margin-bottom: 30px;
 	}
 }
-/* xGA iPad */
+
 @media screen and (max-width:1024px) {
 	.wp3 {
 		background-position:50px 0;
@@ -1137,13 +1132,13 @@ ul.slides li {
 		background-attachment: scroll;
 	}
 }
-/* 1200px (Small Desktop,Netbook) */
+
 @media screen and (max-width:1280px) {
 	.wp3 {
 		background-position: 50px 0;
 	}
 }
-/* Bootstrap 990px Breakpoint to 480px */
+
 @media screen and (min-width:480px) and (max-width:991px) {
 	.iphone {
 		display:none;
@@ -1166,16 +1161,6 @@ ul.slides li {
 		font-size:1em;
 	}
 }
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width:991px) {
 	.hero {
@@ -1213,13 +1198,6 @@ ul.slides li {
 	padding: 0;
 	box-sizing: border-box;
 }
-
-html{
-	height: 100%;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
-}
-
 
 
 .hero-section{
