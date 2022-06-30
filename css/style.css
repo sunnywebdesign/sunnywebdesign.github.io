@@ -1394,3 +1394,16 @@ line-height: 40px;
 	font-family:"Arsenica Trial" ;
 	padding-bottom: 23px;
 }
+@media (min-width:600px){
+	.hero{
+		padding: 0;
+	}
+	.text_hero{
+		font-size: 60px;
+		letter-spacing:normal;
+	}
+	.hero h3{
+		letter-spacing: 5px;
+		line-height: 20px;
+	}
+}
