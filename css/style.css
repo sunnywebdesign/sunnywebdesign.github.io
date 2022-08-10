@@ -100,7 +100,7 @@ body {
 	margin:0;
 	font-family: Quicksand,sans-serif;
 }
-/* ==========================================================================Links========================================================================== */
+
 a:focus {
 	outline:thin dotted;
 }
@@ -536,7 +536,7 @@ table {
 	}
 }
 .scrollto {
-	padding: 150px 0px 0px 0px;
+	padding: 50px 0px 0px 0px;
 	display:block;
 	color:#FFF;
 	text-decoration:none;
