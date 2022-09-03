@@ -96,11 +96,11 @@ html,html a {
 
 }
 html,button,input,select,textarea {
-	font-family:'Varela Round',sans-serif;
+	font-family:montserrat,sans-serif;
 }
 body {
 	margin:0;
-	font-family: Poppins,sans-serif;
+	font-family:montserrat,sans-serif;
 }
 
 a:focus {
