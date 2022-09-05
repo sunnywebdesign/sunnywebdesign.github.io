@@ -1232,7 +1232,7 @@ ul.slides li {
 	background-size: cover;
 	background-position: center;
         bottom: 0;
-	filter: brightness(0.8) saturate(1.1) contrast(0.9) grayscale(11);
+	filter: brightness(0.9) saturate(1.1) contrast(0.9) grayscale(1);
 	left: 0;
 	position: absolute;
 	right: 0;
