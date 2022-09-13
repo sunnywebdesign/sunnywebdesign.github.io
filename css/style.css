@@ -1269,11 +1269,11 @@ ul.slides li {
 }
 
 .card__heading{
+	font-weight: 600;
 	color: var(--secondary-color);
 	font-size: 1.8rem;
 	text-align:center;
 	font-family:arsenica trial;
-
 	line-height: 1.3;
 	word-spacing: 100vw;
 }
