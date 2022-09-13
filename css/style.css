@@ -95,9 +95,7 @@ html,html a {
 	-webkit-font-smoothing:antialiased;
 
 }
-html,button,input,select,textarea {
-	font-family:poppins,sans-serif;
-}
+
 body {
 	margin:0;
 	font-family:raleway,sans-serif;
