@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
 :root {
 	--main-color: #5cdeb7;
 	--secondary-color: #faf088;
@@ -99,7 +100,7 @@ html,html a {
 
 body {
 	margin:0;
-	font-family:raleway,sans-serif;
+	font-family:raleway,montserrat,monospace;
 }
 
 a:focus {
@@ -1392,7 +1393,7 @@ line-height: 20px;
 
 }
 .text_hero{ color:#f0f0f0;
-	font-family:"Dancing Script";
+	font-family: 'Pacifico', cursive;
 	padding-bottom: 23px;
 }
 
