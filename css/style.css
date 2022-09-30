@@ -1225,20 +1225,18 @@ ul.slides li {
 }
 
 .card__background{
-
-	background-size: cover;
+	border-radius:10px
+        background-size: cover;
 	background-position: center;
         bottom: 0;
-	filter: brightness(0.9) saturate(1.1) contrast(0.9) grayscale(1);
+	filter: brightness(0.9) saturate(1.1) contrast(0.9) grayscale();
 	left: 0;
 	position: absolute;
 	right: 0;
 	top: 0;
 	transform-origin: center;
 	trsnsform: scale(1) translateZ(0);
-	transition:
-			filter 200ms linear,
-			transform 200ms linear;
+	transition:filter 200ms linear,transform 200ms linear;
 }
 
 .card:hover .card__background{
