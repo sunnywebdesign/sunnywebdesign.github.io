@@ -1,10 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
-
 :root {
-	--main-color: #5cdeb7;
+	--main-color: #ff6238;
 	--secondary-color: #faf088;
 }
-
 
 #preloader {
 
@@ -1262,7 +1259,7 @@ ul.slides li {
 
 .card__category{
 	text-align:center;
-	color: whitesmoke;
+	color: var(--main-color) ;
 	font-size: 1 rem;
 	margin-bottom: var(--spacing-s);
 	text-transform: uppercase;
@@ -1273,7 +1270,7 @@ ul.slides li {
 	color: var(--secondary-color);
 	font-size: 1.8rem;
 	text-align:center;
-	font-family:Dancing Script;
+	font-family:Arsenica Trial;
 	line-height: 1.3;
 	word-spacing: 100vw;
 }
