@@ -585,6 +585,7 @@ section {
 }
 
 .about .image {
+  margin-bottom: 20px;
   background: url("../img/me.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
